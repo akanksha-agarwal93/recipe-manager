@@ -4,13 +4,13 @@ export const Header = () => {
 	const selectedTab = "home"
 
 	const selectedClass =
-		"rounded-(--flavorly-radius-pill) bg-white px-4 text-sm font-semibold text-(--flavorly-tomato) shadow-[0_8px_22px_rgba(78,42,28,0.08)]"
+		"rounded-(--flavorly-radius-pill) bg-white px-4 text-sm font-semibold text-(--flavorly-tomato) shadow-[0_8px_18px_rgba(78,42,28,0.07)]"
 
 	const defaultClass =
 		"px-2 text-sm font-medium text-(--flavorly-text-secondary)"
 
 	return (
-		<header className=' px-2 py-2'>
+		<header className='px-2 py-1.5'>
 			<div className='flex flex-col gap-2 md:flex-row md:items-center md:justify-between'>
 				<div className='flex flex-col'>
 					<div className='flex items-center gap-3'>
@@ -19,7 +19,7 @@ export const Header = () => {
 							alt='Flavorly'
 							width={44}
 							height={44}
-							className='size-11'
+							className='size-10'
 						/>
 						<div>
 							<Image
@@ -27,17 +27,17 @@ export const Header = () => {
 								alt='Flavorly'
 								width={162}
 								height={50}
-								className='h-9 w-auto'
+								className='h-8 w-auto'
 							/>
 						</div>
 					</div>
-					<p className='mt-1 text-xs font-medium text-(--flavorly-text-muted)'>
+					<p className='mt-0.5 text-xs font-medium text-(--flavorly-text-muted)'>
 						Fresh recipes, saved beautifully
 					</p>
 				</div>
-				<div className='flex flex-1 items-center justify-center gap-6'>
+				<div className='flex flex-1 items-center justify-center gap-5'>
 					<button
-						className={`inline-flex h-11 items-center gap-2 ${
+						className={`inline-flex h-10 items-center gap-2 ${
 							selectedTab === "home" ? selectedClass : defaultClass
 						}`}
 					>
@@ -50,7 +50,7 @@ export const Header = () => {
 						/>
 						<span>Home</span>
 					</button>
-					<button className='inline-flex h-11 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
+					<button className='inline-flex h-10 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
 						<Image
 							src='/assets/flavorly/icons/recipes.svg'
 							alt=''
@@ -60,7 +60,7 @@ export const Header = () => {
 						/>
 						<span>Recipes</span>
 					</button>
-					<button className='inline-flex h-11 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
+					<button className='inline-flex h-10 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
 						<Image
 							src='/assets/flavorly/icons/favorites.svg'
 							alt=''
@@ -70,7 +70,7 @@ export const Header = () => {
 						/>
 						<span>Favorites</span>
 					</button>
-					<button className='inline-flex h-11 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
+					<button className='inline-flex h-10 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
 						<Image
 							src='/assets/flavorly/icons/meal-plans.svg'
 							alt=''
@@ -80,7 +80,7 @@ export const Header = () => {
 						/>
 						<span>Meal Plans</span>
 					</button>
-					<button className='inline-flex h-11 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
+					<button className='inline-flex h-10 items-center gap-2 px-2 text-sm font-medium text-(--flavorly-text-secondary)'>
 						<Image
 							src='/assets/flavorly/icons/shopping-list.svg'
 							alt='Shopping List'
@@ -94,7 +94,7 @@ export const Header = () => {
 
 				<div className='flex items-center justify-between gap-3 md:justify-end'>
 					<div className='flex items-center gap-2'>
-						<button className='flex size-11 items-center justify-center rounded-(--flavorly-radius-pill) text-sm font-bold text-(--flavorly-tomato)'>
+						<button className='flex size-10 items-center justify-center rounded-(--flavorly-radius-pill) text-sm font-bold text-(--flavorly-tomato)'>
 							<Image
 								src='/assets/flavorly/icons/notification.svg'
 								alt=''
@@ -103,7 +103,7 @@ export const Header = () => {
 								className='size-5'
 							/>
 						</button>
-						<div className='flex size-11 items-center justify-center rounded-(--flavorly-radius-pill) bg-(--flavorly-surface-peach) text-sm font-bold text-(--flavorly-tomato)'>
+						<div className='flex size-10 items-center justify-center rounded-(--flavorly-radius-pill) bg-(--flavorly-surface-peach) text-sm font-bold text-(--flavorly-tomato)'>
 							A
 						</div>
 					</div>
