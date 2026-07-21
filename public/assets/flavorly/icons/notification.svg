@@ -1,0 +1,5 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="notification-title">
+  <title id="notification-title">Notifications</title>
+  <path d="M18 9.5C18 6.2 15.3 3.5 12 3.5C8.7 3.5 6 6.2 6 9.5V13.6L4.5 16.5H19.5L18 13.6V9.5Z" stroke="#6F5C53" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M9.5 18.5C10 19.7 10.9 20.5 12 20.5C13.1 20.5 14 19.7 14.5 18.5" stroke="#E94332" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

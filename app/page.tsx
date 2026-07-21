@@ -1,11 +1,9 @@
-import Image from "next/image"
+﻿import { Header } from "./src/component/layout/Header"
 
 export default function Home() {
 	return (
-		<div className='flex min-h-screen flex-col items-center justify-between p-14'>
-			<h1 className='text-4xl font-bold text-zinc-900 dark:text-zinc-100'>
-				Recipe Manager
-			</h1>
-		</div>
+		<main className='min-h-screen bg-background p-4 text-foreground sm:p-6 lg:p-10'>
+			<Header />
+		</main>
 	)
 }

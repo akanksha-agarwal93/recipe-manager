@@ -1,13 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --flavorly-page-bg: #fff9f4;
+  --flavorly-surface: #ffffff;
+  --flavorly-surface-warm: #fff3e8;
+  --flavorly-surface-peach: #ffe6d6;
+  --flavorly-text: #2f2521;
+  --flavorly-text-secondary: #6f5c53;
+  --flavorly-text-muted: #9a8177;
+  --flavorly-border: #f1d8c8;
+  --flavorly-border-strong: #e6bda9;
+  --flavorly-tomato: #e94332;
+  --flavorly-coral: #ff7a59;
+  --flavorly-mustard: #f9c846;
+  --flavorly-leaf: #3fa66b;
+  --flavorly-teal: #2bae9d;
+  --flavorly-berry: #8e5bd8;
+  --flavorly-burnt-orange: #d86b18;
+  --flavorly-radius-xs: 8px;
+  --flavorly-radius-sm: 10px;
+  --flavorly-radius-md: 12px;
+  --flavorly-radius-lg: 16px;
+  --flavorly-radius-xl: 22px;
+  --flavorly-radius-pill: 999px;
+  --flavorly-shadow-card: 0 12px 30px rgba(78, 42, 28, 0.08);
+  --flavorly-shadow-floating: 0 18px 45px rgba(78, 42, 28, 0.14);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--flavorly-page-bg);
+  --color-foreground: var(--flavorly-text);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -20,7 +42,7 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--flavorly-page-bg);
+  color: var(--flavorly-text);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }

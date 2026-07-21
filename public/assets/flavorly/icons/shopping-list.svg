@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="shopping-list-title">
+  <title id="shopping-list-title">Shopping List</title>
+  <path d="M7 6H21L19.2 14.5C19 15.4 18.2 16 17.3 16H9.2C8.3 16 7.5 15.4 7.3 14.5L5.8 3H3" stroke="#6F5C53" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 20.5C9.8 20.5 10.5 19.8 10.5 19C10.5 18.2 9.8 17.5 9 17.5C8.2 17.5 7.5 18.2 7.5 19C7.5 19.8 8.2 20.5 9 20.5Z" fill="#E94332"/>
+  <path d="M17 20.5C17.8 20.5 18.5 19.8 18.5 19C18.5 18.2 17.8 17.5 17 17.5C16.2 17.5 15.5 18.2 15.5 19C15.5 19.8 16.2 20.5 17 20.5Z" fill="#E94332"/>
+</svg>
