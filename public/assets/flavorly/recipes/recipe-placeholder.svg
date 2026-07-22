@@ -1,0 +1,80 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Recipe image placeholder</title>
+  <desc id="desc">A warm illustrated food placeholder with a bowl, vegetables, herbs, and subtle decorative shapes.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1040" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F3"/>
+      <stop offset="1" stop-color="#FDE9DF"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="430" y1="340" x2="760" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B57"/>
+      <stop offset="1" stop-color="#F04432"/>
+    </linearGradient>
+    <filter id="shadow" x="320" y="250" width="560" height="470" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#C86A4B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" rx="48" fill="url(#bg)"/>
+
+  <circle cx="180" cy="155" r="86" fill="#FFD8C8" opacity="0.7"/>
+  <circle cx="1040" cy="650" r="120" fill="#FFF1C7" opacity="0.8"/>
+  <circle cx="1010" cy="150" r="54" fill="#DDF3D6" opacity="0.9"/>
+
+  <path d="M150 610C252 560 320 585 394 676" stroke="#F7BFA8" stroke-width="18" stroke-linecap="round" opacity="0.55"/>
+  <path d="M860 180C930 105 1010 118 1060 196" stroke="#C9E9C2" stroke-width="18" stroke-linecap="round" opacity="0.7"/>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="600" cy="620" rx="220" ry="48" fill="#E8CFC3" opacity="0.55"/>
+    <path d="M370 390C386 560 476 650 600 650C724 650 814 560 830 390H370Z" fill="url(#bowl)"/>
+    <ellipse cx="600" cy="390" rx="230" ry="95" fill="#FFFDFB"/>
+    <ellipse cx="600" cy="392" rx="202" ry="72" fill="#FFE5C9"/>
+
+    <path d="M465 392C500 345 560 327 615 342C660 354 687 389 730 383C742 430 699 463 647 468C595 474 543 451 503 444C476 439 455 421 465 392Z" fill="#F6B73C"/>
+    <path d="M500 405C540 360 600 356 656 378" stroke="#FDE8A8" stroke-width="18" stroke-linecap="round"/>
+    <path d="M520 435C568 401 625 399 682 420" stroke="#FDE8A8" stroke-width="18" stroke-linecap="round"/>
+
+    <circle cx="495" cy="375" r="26" fill="#F04432"/>
+    <circle cx="690" cy="365" r="24" fill="#F04432"/>
+    <circle cx="575" cy="410" r="18" fill="#8BC34A"/>
+    <circle cx="640" cy="435" r="16" fill="#8BC34A"/>
+    <circle cx="548" cy="362" r="14" fill="#7A4E2D"/>
+    <circle cx="725" cy="415" r="13" fill="#7A4E2D"/>
+
+    <path d="M580 335C592 304 614 281 648 269C642 306 622 331 580 335Z" fill="#3FA45B"/>
+    <path d="M618 346C635 314 662 294 700 289C687 326 661 348 618 346Z" fill="#67B84D"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M286 280C307 237 339 213 385 206C374 253 343 278 286 280Z" fill="#4BAA5C"/>
+    <path d="M315 318C343 276 380 257 426 260C404 304 367 323 315 318Z" fill="#78C850"/>
+    <path d="M310 330C340 300 370 277 398 250" stroke="#3E8D4B" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M900 430C916 394 944 373 981 369C971 407 945 429 900 430Z" fill="#4BAA5C"/>
+    <path d="M930 462C952 428 983 412 1022 414C1004 449 975 466 930 462Z" fill="#78C850"/>
+    <path d="M925 472C948 448 974 429 1000 405" stroke="#3E8D4B" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#F04432">
+    <circle cx="285" cy="500" r="28"/>
+    <circle cx="320" cy="470" r="22"/>
+    <path d="M282 470C295 451 316 443 338 449C326 468 306 478 282 470Z" fill="#3FA45B"/>
+  </g>
+
+  <g transform="translate(860 500)">
+    <path d="M0 36C10 6 34 -8 68 -5C56 28 34 44 0 36Z" fill="#FFB020"/>
+    <path d="M40 70C54 37 80 20 115 24C101 58 76 74 40 70Z" fill="#FF8A3D"/>
+    <circle cx="12" cy="84" r="8" fill="#7A4E2D"/>
+    <circle cx="40" cy="101" r="7" fill="#7A4E2D"/>
+    <circle cx="71" cy="92" r="6" fill="#7A4E2D"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M150 210C185 184 219 182 252 203" stroke="#F04432" stroke-width="10" stroke-linecap="round"/>
+    <path d="M930 250C963 221 1000 215 1038 234" stroke="#F6B73C" stroke-width="10" stroke-linecap="round"/>
+    <path d="M170 670C205 640 242 634 278 651" stroke="#7B61FF" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="735" text-anchor="middle" fill="#6B4A3E" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Recipe image coming soon</text>
+</svg>
