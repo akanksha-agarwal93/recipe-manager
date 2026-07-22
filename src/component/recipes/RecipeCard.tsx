@@ -16,8 +16,8 @@ export const RecipeCard = ({
 	tags,
 }: RecipeCardProps) => {
 	return (
-		<div className='w-full min-w-[180px] overflow-hidden rounded-(--flavorly-radius-lg) border border-(--flavorly-border) bg-white shadow-[0_8px_20px_rgba(78,42,28,0.05)]'>
-			<div className='relative aspect-[4/3] w-full overflow-hidden bg-(--flavorly-surface-warm)'>
+		<div className='w-full min-w-45 overflow-hidden rounded-(--flavorly-radius-lg) border border-(--flavorly-border) bg-white shadow-[0_8px_20px_rgba(78,42,28,0.05)]'>
+			<div className='relative aspect-4/3 w-full overflow-hidden bg-(--flavorly-surface-warm)'>
 				<Image
 					src={imageUrl}
 					alt={title}
@@ -38,7 +38,7 @@ export const RecipeCard = ({
 			</div>
 
 			<div className='flex flex-col gap-2 px-3.5 pb-3.5 pt-3'>
-				<h3 className='line-clamp-2 text-[15px] font-bold leading-snug text-(--flavorly-text)'>
+				<h3 className='line-clamp-2 text-[15px] font-bold leading-snug text-foreground'>
 					{title}
 				</h3>
 

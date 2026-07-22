@@ -1,5 +1,6 @@
 import { RecipeCard } from "../recipes/RecipeCard"
 import { mockRecipes } from "../../data/mockRecipes"
+import Link from "next/link"
 
 export const PopularRecipes = () => {
 	return (
@@ -11,16 +12,23 @@ export const PopularRecipes = () => {
 				</a>
 			</div>
 			<div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-3'>
-				{mockRecipes.slice(0, 5).map((recipe) => (
-					<RecipeCard
-						key={recipe.title}
-						title={recipe.title}
-						imageUrl={"/assets/flavorly/recipes/recipe-placeholder.svg"}
-						preparationTime={`${recipe.prepTime + recipe.cookTime} mins`}
-						difficulty={recipe.difficulty}
-						tags={recipe.tags}
-					/>
-				))}
+				{mockRecipes.slice(0, 5).map(
+					(recipe) => (
+						console.log(recipe.id),
+						(
+							<Link href={`/recipes/${recipe.id}`} key={recipe.id}>
+								<RecipeCard
+									key={recipe.title}
+									title={recipe.title}
+									imageUrl={"/assets/flavorly/recipes/recipe-placeholder.svg"}
+									preparationTime={`${recipe.prepTime + recipe.cookTime} mins`}
+									difficulty={recipe.difficulty}
+									tags={recipe.tags}
+								/>
+							</Link>
+						)
+					),
+				)}
 			</div>
 		</section>
 	)
