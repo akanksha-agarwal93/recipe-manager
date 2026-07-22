@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vegetarian-title">
+  <title id="vegetarian-title">Vegetarian</title>
+  <circle cx="12" cy="12" r="11" fill="#3FA66B"/>
+  <path d="M18.5 5.5C14.2 5.3 10.2 6.7 8.1 9.1C6.3 11.2 6.6 14.1 8.5 16C10.4 17.9 13.3 17.9 15.4 15.9C18 13.4 18.5 5.5 18.5 5.5Z" fill="#EDF8E8"/>
+  <path d="M7 17C9.7 13.5 12.8 10.9 16.8 8.7" stroke="#3FA66B" stroke-width="1.7" stroke-linecap="round"/>
+</svg>

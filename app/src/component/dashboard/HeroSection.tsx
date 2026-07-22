@@ -20,7 +20,7 @@ export const HeroSection = () => {
 					<input
 						type='text'
 						placeholder='Search recipes'
-						className='w-full bg-transparent text-sm font-medium text-(--flavorly-text) outline-none placeholder:text-(--flavorly-text-muted)'
+						className='w-full bg-transparent text-sm font-medium text-foreground outline-none placeholder:text-(--flavorly-text-muted)'
 					/>
 
 					<Image
