@@ -66,3 +66,12 @@ body {
 .font-flavorly-script {
   font-family: "Segoe Script", "Lucida Handwriting", "Brush Script MT", cursive;
 }
+
+.recipe-hero-overlay {
+  background: linear-gradient(
+    to top,
+    rgb(0 0 0 / 0.75),
+    rgb(0 0 0 / 0.18),
+    rgb(0 0 0 / 0.18)
+  );
+}
